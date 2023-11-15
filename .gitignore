@@ -1,0 +1,15 @@
+# Ignore .tfstate files
+*.tfstate
+
+# Ignore .tfstate files that are not needed
+*.tfstate.*
+
+# Ignore .sh files
+*.sh
+
+# Ignore .tfvars files
+*.tfvars
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+*.terraform.lock.hcl
